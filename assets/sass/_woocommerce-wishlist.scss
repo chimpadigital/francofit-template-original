@@ -1,0 +1,21 @@
+.yith-wcwl-add-to-wishlist { 
+	.yith-wcwl-wishlistaddedbrowse,
+	.yith-wcwl-wishlistexistsbrowse {
+		 .wishlist_icon path{
+		 		fill: #e25842;
+		 		stroke: #e25842;
+		 }
+	}
+	.yith-wcwl-add-button {
+		.wishlist_icon path{
+			fill: transparent;
+			stroke: $color1;
+			
+		}
+		&:hover {
+			.wishlist_icon path{
+				stroke: #e25842;	
+			}
+		}
+	}
+}
